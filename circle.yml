@@ -5,8 +5,8 @@ machine:
 dependencies:
   post:
     - pip install --upgrade pip
-    - pip install flack8
+    - pip install flake8
 
 test:
   override:
-    - flack8 .
+    - flake8 .
